@@ -1,0 +1,4 @@
+ofxDeferredShading
+ofxGui
+ofxInstrumentManager
+ofxOsc
