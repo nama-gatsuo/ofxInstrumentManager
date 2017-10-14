@@ -8,9 +8,11 @@ public:
     ofxInstrumentManager();
     void update();
     void draw();
-    void add(InstrumentObject instrument);
+    void add(const InstrumentObject& instrument);
+    void enableDebug();
 private:
     void check(int id);
     ofxOscReceiver receiver;
     vector<InstrumentObject> instruments;
+    bool DEBUG = false;
 };
